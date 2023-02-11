@@ -1,7 +1,7 @@
-<table style='width:100%'>
+<table align='center' style='width:100%'>
     <tr>
         <td align='center' width='100%' bgcolor='black'>
-            <a href='https://www.google.com'>
+            <a href='https://adventofcode.com/'>
                 <img src='./images/Advent of Code.png'
                      width="150">
             </a>
@@ -11,6 +11,7 @@
         <td align='center' width='100%' bgcolor='white'>
             <img src='./images/logo.png'
                  width='250'>
+            <br/>
             <center>
                 <em>
                     Content Copyright (c) 2003 <b>whitespace-code
