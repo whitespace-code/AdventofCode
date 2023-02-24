@@ -1,30 +1,26 @@
-<table align='center' style='width:100%'>
-    <tr>
-        <td align='center' width='100%' bgcolor='black'>
-            <a href='https://adventofcode.com/'>
-                <img src='./images/Advent of Code.png'
-                     width="150">
-            </a>
-        </td>
-    </tr>
-    <tr>
-        <td align='center' width='100%' bgcolor='white'>
-            <img src='./images/logo.png'
-                 width='250'>
-            <br/>
-            <center>
-                <em>
-                    Content Copyright (c) 2003 <b>whitespace-code
-                    </b>
-                </em>
-                <br/>
-                <em>MIT License</em>
-            </center>
-        </td>
-    </tr>
-</table>
+<div align="center" style="background-color: black">
+    <a href='https://adventofcode.com'>
+        <img src='./images/Advent of Code.png' 
+             width="150">
+    </a>
+</div>
+<div align="center">
+    <img src='./images/logo.png'>
+    <br/>
+    <img src="https://img.shields.io/github/last-commit/whitespace-code/AdventofCode?style=flat-square"
+         alt="GitHub last commit">
+    <img src="https://img.shields.io/github/license/whitespace-code/AdventofCode"
+         alt="License" >
+    <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fhits.dwyl.com%2Fwhitespace-code%2FAdventofCode.json%3Fcolor%3D4B8BBE" 
+         alt="Page hits">
+    <br/>
+    <img src="https://img.shields.io/badge/Powered%20by%20Jupyter-blue?logo=jupyter&logoColor=F37626&label=&labelColor=4D4D4D&style=for-the-badge&color=F37626"
+         alt="Powered by Jupyter">
+    <img src="https://img.shields.io/badge/Language-python-yellow?logo=python&logoColor=FFE873&label=&labelColor=646464&style=for-the-badge&color=4B8BBE"
+         alt="Language - Python">
+    <hr/>
+</div>
 
----
 ### <font color='blue'>What is Advent of Code</font>
 Advent of Code is an Advent calendar of small programming puzzles created by Eric Wastl for a variety of skill sets and skill levels that can be solved in any programming language you like.
 
@@ -32,19 +28,22 @@ You don't need a computer science background to participate - just a little prog
 
 ### <font color='blue'>Credits</font>
 * Eric Wastl - Creator of Advent of Code challenges
-#### <font color='blue'>Further Details</font>
+#### <font color='blue'>More info</font>
 * [AOC Website](https://adventofcode.com/)
 ---
 ### <font color='blue'>About this project</font>
-This is a compilation of my solutions to the various problems posted in 2022
+This is a compilation of my solutions to each daily challenge. I am starting with 2022 as this was the year it was introduced to me but will continue back until conception and into the future as part of the annual challenge over christmas
 
-All the source data files required to solve the problems including the sample data are stored within then <font color='blue'>/Source Files</font> folder for the respective year.
+All the source data files required to solve the problems including the sample data are stored within the <font color='blue'>/Source Files</font> folder for the respective year.
 
-All solutions coded in Jupyter notebooks and converted to .py files
+All solutions coded in Jupyter notebooks will also be converted to pure .py files.
+
+All information about each individual challenge will be documented on the notebook, but not on the python scripts
 
 ### <font color='blue'>Project folder structure</font>
 Below is how the files for this project are arrange and where to find information. Each annual project includes a readme file as well as the code in Jupyter notebook with and .py files.    
-```
+<div>
+    <pre style="color:blue; background-color:#D3D3D3;">    
     root folder
         |___ AOC_yyyy
         |    |___ Jupyter Files
@@ -59,10 +58,10 @@ Below is how the files for this project are arrange and where to find informatio
         |___ .gitignore
         |___ LICENSE
         |___ menu.py
-```
+    </pre>
+</div>
+
 ---
 <div style='text-align: right'>
-    <font size=2>
-        <em>last edited : <b>2023.02.11</b></em>
-    </font>
+    <img src="https://img.shields.io/badge/Last_edited-2023.02.22-blue">
 </div>
